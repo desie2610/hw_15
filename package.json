@@ -1,0 +1,24 @@
+{
+  "name": "hw_15",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url hw_08",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.3",
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "gh-pages": "^6.3.0",
+    "lodash.debounce": "^4.0.8"
+  }
+}
